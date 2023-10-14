@@ -23,7 +23,7 @@ php artisan tinker
 Depois de rodar o que temos acima, coloque o temos abaixo para criar um tenant
 
 ```sh
-$tenant = \App\Models\Tenant::create(['tenant_id' => 'astros', 'plan' => 'Free
+ $tenant = \App\Models\Tenant::create(['tenant_id' => 'astros', 'plan' => 'Free']);
 ```
 
 depois de criar um tenant é necessario criar o seu domain, então rode o
